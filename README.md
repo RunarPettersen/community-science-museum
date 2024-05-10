@@ -1,2 +1,2 @@
-# Semester-Project-1
-Semester Project 1
+# Community-Science-Museum
+Community Science Museum
