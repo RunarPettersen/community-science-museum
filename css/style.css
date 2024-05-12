@@ -295,7 +295,7 @@ article {
     border-radius: 8px;
     border: solid;
     border-width: 8px;
-    background-color: lightblue;
+    background-color: white;
     width: 1200px;
 }
 
@@ -730,7 +730,7 @@ input[type=text], select, textarea {
   }
 
   input[type=submit] {
-    background-color: lightblue;
+    background-color: white;
     padding: 12px 20px;
     border: 8px solid;
     border-radius: 8px;
@@ -750,6 +750,11 @@ input[type=text], select, textarea {
 
   .contact-box {
     width: 60%;
+  }
+
+  .week {
+    line-height: 0.7em;
+    text-indent: 1em;
   }
 
   @media only screen and (max-width: 1400px) {
