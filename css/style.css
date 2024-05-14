@@ -204,7 +204,6 @@ nav ul li a:hover::before {
     clip: rect(1px, 1px, 1px, 1px);
     clip-path: inset(50%);
     white-space: nowrap;
-    color: #fff;
 }
 
 /* End of Hamburger */
