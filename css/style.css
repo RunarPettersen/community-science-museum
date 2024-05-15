@@ -456,10 +456,12 @@ footer a {
 @media only screen and (max-width: 1250px) {
     .col {
         width: 520px;
+        height: 740px;
     }
 
     .welcome {
         width: 520px;
+        height: 350px;
     }
 
     .hours {
@@ -508,10 +510,12 @@ footer a {
 
     .col {
         width: 440px;
+        height: 640px;
     }
 
     .welcome {
         width: 440px;
+        height: 250px;
         font-size: 20px;
     }
 
@@ -649,10 +653,12 @@ footer a {
 
     .welcome {
         width: 80vw;
+        height: 200px;
     }
 
     .hours {
         width: 80vW;
+        height: 280px;
     }
 
     .col {
@@ -717,6 +723,14 @@ footer a {
 @media only screen and (max-width: 420px) {
     header {
         height: 160px;
+    }
+
+    .welcome {
+        height: auto;
+    }
+
+    .hours {
+        height: auto;
     }
 }
 
