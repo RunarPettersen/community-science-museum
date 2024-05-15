@@ -487,7 +487,13 @@ footer a {
 
 @media only screen and (max-width: 1220px) {
     nav .logo {
-    padding-left: 5%;
+        padding-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 1181px) {
+    nav ul {
+        font-size: 14px;
     }
 }
 
