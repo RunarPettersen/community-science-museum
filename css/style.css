@@ -531,10 +531,6 @@ footer a {
     .news {
         width: 920px;
     }
-
-    header {
-        height: 140px;
-    }
 }
 
 @media only screen and (max-width: 980px) {
