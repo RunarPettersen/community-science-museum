@@ -428,6 +428,8 @@ footer a {
 
 /* End of Footer */
 
+/* Responsive Media */
+
 @media only screen and (max-width: 1550px) {
     nav .logo {
     padding-left: 10%;
