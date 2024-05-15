@@ -332,6 +332,8 @@ footer {
     color: #fff;
     justify-content: space-around;
     height: 200px;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 .dna-menu {
@@ -433,6 +435,11 @@ footer a {
 
     nav ul li {
         margin: 18px;
+    }
+
+    footer {
+        padding-left: unset;
+        padding-right: unset;
     }
 }
 
@@ -631,8 +638,6 @@ footer a {
     }
 }
 
-
-
 @media only screen and (max-width: 720px) {
     .row {
         grid-template-areas: 
@@ -742,7 +747,7 @@ footer a {
 .headliner div {
     text-align: center;
     background-color: #fff;
-    width: 60%;
+    width: 1200px;
     border-radius: 8px;
     border: solid;
     border-width: 8px;
@@ -785,7 +790,7 @@ input[type=text], select, textarea {
   }
 
   .contact-box {
-    width: 60%;
+    width: 1200px;
   }
 
   .week {
@@ -811,15 +816,6 @@ input[type=text], select, textarea {
     background-color: white;
     width: 1200px;
 }
-
-  @media only screen and (max-width: 1400px) {
-    .headliner div {
-        width: 80%;
-    }
-    .contact-box {
-        width: 80%;
-    }
-  }
 
   @media only screen and (max-width: 1250px) {
     .map iframe {
