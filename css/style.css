@@ -777,6 +777,14 @@ footer a {
     font-weight: 800;
 }
 
+::placeholder {
+    color: #666;
+}
+
+.contact-inputs:focus {
+    border: 8px solid #0C2340;
+}
+
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;

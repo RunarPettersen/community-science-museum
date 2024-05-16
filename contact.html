@@ -44,11 +44,14 @@
     </div>
     <div class="contact">
         <div class="contact-box">
-            <form action="action_page.php">
+            <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="3256b98e-07d6-4c3d-aa94-ff183085274a">
               <label for="fname">First Name</label><br>
-              <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+              <input type="text" id="fname" name="firstname" class="contact-inputs" placeholder="Your name …"><br>
               <label for="lname">Last Name</label><br>
-              <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+              <input type="text" id="lname" name="lastname" class="contact-inputs" placeholder="Your last name …"><br>
+              <label for="email">Email</label><br>
+              <input type="text" id="email" name="youremail" class="contact-inputs" placeholder="Your email …"><br>
               <label for="who-are-you">Who are you?</label><br>
               <select id="who-are-you" name="who-are-you">
                 <option value="visitor">Visitor</option>
@@ -56,7 +59,7 @@
                 <option value="researcher">Researcher</option>
               </select><br>
               <label for="subject">Subject</label><br>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br>
+              <textarea id="subject" name="subject" class="contact-inputs" placeholder="What's on your mind?" style="height:200px"></textarea><br>
               <input type="submit" value="Submit">
             </form>
         </div>
