@@ -135,7 +135,7 @@ nav ul li a:hover::before {
     z-index: 99;
     position: relative;
     align-items: flex-end;
-    margin-top: -50px;
+    margin-top: -15px;
     margin-right: 40px;
 }
 
