@@ -1,6 +1,6 @@
 # Community Science Museum
 
-![image](https://raw.githubusercontent.com/RunarPettersen/rainy-days/refs/heads/main/images/csm-home.jpg)
+![image](https://raw.githubusercontent.com/RunarPettersen/community-science-museum/refs/heads/main/images/csm-home.jpg)
 
 The Community Science Museum was our first semester project at Noroff.
 
